@@ -204,7 +204,7 @@ constructor(){
                 </div>
               
                 <div className='form-group'>
-                    <label htmlFor='type'>Gender</label>
+                    <label htmlFor='type'>Gender:</label>
                     <select name='gender' id='type' value={this.state.gender} 
                   onChange={this.handlechange}  
                     className='form-control' >
